@@ -8,9 +8,7 @@ install:
 
 script:
   - make package
-  - cd docs
-  - make html
-  - cd ..
+  - sphinx-build -W docs/ docs/_build/
 
 deploy:
   provider: releases
