@@ -18,7 +18,7 @@ You can use a driver-generating module to create custom environments. On each Ne
 
     .. code-block:: shell
 
-        # service_provider = LOADBALANCER:DFW1:f5.oslbaasv1driver.drivers.plugin_driver_Dfw1.F5®PluginDriverDfw1
+        # service_provider = LOADBALANCER:DFW1:f5.oslbaasv1driver.drivers.plugin_driver_Dfw1.F5PluginDriverDfw1
 
     Remove the comment (`#`) from the beginning of the new ``service_provider`` line to activate the driver.
 

@@ -3,7 +3,7 @@ Running Multiple Agents on the Same Host
 
 .. warning::
 
-    You should never run two agents *for the same environment* on the same host, as the hostname is used to help Neutron distinguish between agents. Multiple agent processes for *different environments* -- meaning each agent is associated with a different iControl endpoint -- can run on the same host.
+    You should never run two agents *for the same environment* on the same host, as the hostname is used to help Neutron distinguish between agents. Multiple agent processes for *different environments* -- meaning each agent is associated with a different iControl® endpoint -- can run on the same host.
 
 .. topic:: To configure multiple agents on the same host:
 
@@ -28,7 +28,7 @@ Running Multiple Agents on the Same Host
         # service_provider=LOADBALANCER:name:lbaas_plugin_driver_path:default
         service_provider=LOADBALANCER:DSC4:f5.oslbaasv1driver.drivers.plugin_driver_Dsc4.F5PluginDriverDsc4
         service_provider=LOADBALANCER:F5:f5.oslbaasv1driver.drivers.plugin_driver.F5PluginDriver
-        service_provider=LOADBALANCER:Haproxy:neutron_lbaas.services.loadbalancer.drivers.haproxy.plugin_driver.HaproxyOnHostPluginDriver:default
+        #service_provider=LOADBALANCER:Haproxy:neutron_lbaas.services.loadbalancer.drivers.haproxy.plugin_driver.HaproxyOnHostPluginDriver:default
 
 
     3. Create a unique configuration file for each agent.

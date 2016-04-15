@@ -12,7 +12,7 @@ The F5® OpenStack LBaaSv1 plugin allows for the use of three default environmen
     # and add the following line to your LBaaS service_provider config
     # on the neutron server:
     #
-    # service_provider = LOADBALANCER:TEST:f5.oslbaasv1driver.drivers.plugin_driver.F5®PluginDriverTest
+    # service_provider = LOADBALANCER:TEST:f5.oslbaasv1driver.drivers.plugin_driver.F5PluginDriverTest
     #
     # For a dev environment:
     #
@@ -21,7 +21,7 @@ The F5® OpenStack LBaaSv1 plugin allows for the use of three default environmen
     # and add the following line to your LBaaS service_provider config
     # on the neutron server:
     #
-    # service_provider = LOADBALANCER:DEV:f5.oslbaasv1driver.drivers.plugin_driver.F5®PluginDriverDev
+    # service_provider = LOADBALANCER:DEV:f5.oslbaasv1driver.drivers.plugin_driver.F5PluginDriverDev
     #
     # For a prod environment:
     #
@@ -30,7 +30,7 @@ The F5® OpenStack LBaaSv1 plugin allows for the use of three default environmen
     # and add the following line to your LBaaS service_provider config
     # on the neutron server:
     #
-    # service_provider = LOADBALANCER:PROD:f5.oslbaasv1driver.drivers.plugin_driver.F5®PluginDriverProd
+    # service_provider = LOADBALANCER:PROD:f5.oslbaasv1driver.drivers.plugin_driver.F5PluginDriverProd
 
 
 After making changes to  :file:`/etc/neutron/f5-oslbaasv1-agent.ini` and :file:`/etc/neutron/neutron_lbaas`, restart the ``neutron-server`` process.
