@@ -87,7 +87,7 @@ rst_prolog = """
     var home = "clouddocs.f5.com";
     var rtd = "f5-openstack-lbaasv1.readthedocs.io";
 
-    if (window.location.hostname === rtd) {window.location.assign("http://" + home + "/cloud/openstack/");}
+    if (window.location.hostname === rtd) {window.location.assign("http://" + home + "/products/openstack/lbaasv1/latest");}
    </script>
 .. attention::
 
